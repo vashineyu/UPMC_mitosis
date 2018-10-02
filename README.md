@@ -1,7 +1,8 @@
 ## UPMC mitosis classification
 Framework: Tensorflow v1.8
 
-This version of uploaded repo is only for visualization (see vis.ipynb)
+This version of uploaded repo is only for visualization (see [vis.ipynb](https://github.com/vashineyu/UPMC_mitosis/blob/master/vis.ipynb) )
+To see several images example, please see [show_image_examples.ipynb](https://github.com/vashineyu/UPMC_mitosis/blob/master/show_image_examples.ipynb)
 If want to run the code, You'll need "Common_tools" which only a soft-link in the repo, you can add it manually from https://github.com/vashineyu/Common_tools.
 
 The Common_tools contains pretrain-weights, corresponding preprocessing function, etc.
