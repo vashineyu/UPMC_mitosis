@@ -4,7 +4,7 @@ import sys
 class Basic_Setup(object):
     data_dir = "/data/seanyu/UPMC_pathology/Pathology_Analysis/data/" # path to data
     label_dir = "/data/seanyu/UPMC_pathology/Pathology_Analysis/splits/" # path to label
-    result_dir = "/data/seanyu/UPMC_pathology/result/resnet50_RandomSplit" # path to store results
+    result_dir = "/data/seanyu/UPMC_pathology/result/inceptionResnet_adam" # path to store results
     model_saving_name = "model" # model name prefix
     do_augmentation = False
     
@@ -60,8 +60,8 @@ class Hparams(object):
     n_batch = 300
     n_class = 2
     class_weight = None # leave None if don't use it
-    optimizer = 'sgd'
-    pretrain_model = "resnet_50"
+    optimizer = 'adam'
+    pretrain_model = "inception_resnet"
     
     learning_rate = 0.00017
     reduce_lr_options = {'lr':learning_rate, 'factor':0.5, 'patience':4}
