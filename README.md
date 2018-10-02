@@ -6,6 +6,7 @@ If want to run the code, You'll need "Common_tools" which only a soft-link in th
 
 The Common_tools contains pretrain-weights, corresponding preprocessing function, etc.
 To run the training, either run.py (for single run) or go.sh (run over splits)
+[NOTE] Remember to change the data_dir / label_dir / result_dir in the config.py
 
 To change the setting, see and modify the config.py
 To change the whole model structure, see and modify the model.py
